@@ -1,0 +1,19 @@
+# Secrets - never commit
+firmware/include/config.h
+*.env
+.env*
+
+# PlatformIO
+.pio/
+.vscode/
+
+# Flutter / Dart
+app/.dart_tool/
+app/build/
+app/.flutter-plugins*
+app/.packages
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
